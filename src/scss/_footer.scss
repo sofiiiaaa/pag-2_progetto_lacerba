@@ -92,6 +92,7 @@ footer {
     span {
       padding-right: 6.666%;
       padding-left: 8.8%;
+      margin:auto 0;
     }
 
     svg{
@@ -232,6 +233,10 @@ footer {
 
     ul {
             margin: 0;
+            padding:0;
+        #copyright{
+          text-align: center;
+        }
         li {
                 list-style: none;
             }

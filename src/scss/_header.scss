@@ -16,7 +16,7 @@ header {
     /* position:relative;   */
 
     h2{
-        @include font(400,19px,22px);
+        @include font($sm-size,19px,22px);
         letter-spacing: 0.01em;
     }
 

@@ -3,6 +3,7 @@
 /********FONT-STYLE**************/
 /*******FONT-SIZE**************/
 /*****COLORS*************/
+/***********IMAGE********/
 /***********MIXIN************/
 /*********TYPOGRAPHY****************/
 /*********Generals***********/
@@ -183,6 +184,62 @@ h3 {
   margin: 0;
 }
 
+/*********LISTATO***************/
+.listato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.listato .image {
+  display: flex;
+}
+
+.listato .name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.listato .product-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.listato .actual-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: -0.03em;
+  margin-right: 2%;
+}
+
+.listato .original-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: line-through;
+}
+
+.listato .prices {
+  display: flex;
+}
+
+.listato button {
+  border: none;
+  background: transparent;
+}
+
 /*****************************FOOTER***********************************************************/
 footer {
   /****************FIRST-AREA*******************/
@@ -284,6 +341,7 @@ footer .col-sm-3 button .collapsible #company {
 footer .col-sm-3 span {
   padding-right: 6.666%;
   padding-left: 8.8%;
+  margin: auto 0;
 }
 
 footer .col-sm-3 svg {
@@ -407,6 +465,11 @@ footer #copyright-stuff {
 
 footer #copyright-stuff ul {
   margin: 0;
+  padding: 0;
+}
+
+footer #copyright-stuff ul #copyright {
+  text-align: center;
 }
 
 footer #copyright-stuff ul li {
