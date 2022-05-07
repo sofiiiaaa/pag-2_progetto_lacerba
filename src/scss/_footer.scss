@@ -174,7 +174,7 @@ footer {
 
   /**************FORM-AREA************/
 
-  footer #form-area p {
+   #form-area p {
     padding-bottom: 13.33333%;
     margin-bottom: 0;
     font-family: "Roboto";
@@ -185,6 +185,10 @@ footer {
     color: #9d9d9d;
     text-align: left;
     margin-top: 0;
+  }
+
+  #form-and-send{
+    text-align:left;
   }
 
 /**********FOLLOW-ICONS**************/

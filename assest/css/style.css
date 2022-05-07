@@ -409,7 +409,7 @@ footer form button .plus {
   margin-left: auto;
 }
 
-footer footer #form-area p {
+footer #form-area p {
   padding-bottom: 13.33333%;
   margin-bottom: 0;
   font-family: "Roboto";
@@ -420,6 +420,10 @@ footer footer #form-area p {
   color: #9d9d9d;
   text-align: left;
   margin-top: 0;
+}
+
+footer #form-and-send {
+  text-align: left;
 }
 
 footer #follow-icons {
