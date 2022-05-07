@@ -1,0 +1,472 @@
+/*******Variables*************/
+/*********TYPOGRAPHY****************/
+/*********Generals***********/
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+button svg {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/***************************DISCOUNT MESSAGE*************************************/
+.screen-reader-only {
+  display: none;
+}
+
+#discount-message {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  background-color: #000000;
+  /* text-align:center;  */
+  justify-content: center;
+  align-items: center;
+  padding-right: 2%;
+  position: relative;
+}
+
+#discount-message span {
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+}
+
+#discount-message button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  appearance: none;
+  border: 0;
+  background-color: transparent;
+  right: 2.36625%;
+}
+
+#discount-message button svg {
+  width: 25px;
+  color: #fff;
+}
+
+/*****************HEADER*****************************/
+.screen-reader-only {
+  display: none;
+}
+
+header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position:relative;   */
+}
+
+header .visual-icon,
+header #written-icon {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+header #logo {
+  margin: 0 auto;
+  padding: 20px 20px;
+  border: #000000 dashed 3px;
+}
+
+header #written-icon {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+nav {
+  margin-left: 3%;
+}
+
+/***********MEDIA*****************************/
+@media (max-width: 1023px) {
+  .sr-card-img {
+    flex-basis: auto;
+    height: 100vh;
+  }
+  #home,
+  #listato {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  #first-icon,
+  #second-icon {
+    display: none;
+  }
+  #home a,
+  #listato a {
+    color: #000000;
+    text-decoration: none;
+  }
+}
+
+/*****************************FOOTER***********************************************************/
+footer {
+  /****************FIRST-AREA*******************/
+  /*************COL-SM-3**********************/
+  /***************CONTENT**********************/
+  /*********SEND-FORM***************/
+  /*******INPUT********/
+  /***********FORM*********/
+  /**************FORM-AREA************/
+  /**********FOLLOW-ICONS**************/
+  /*************FOLLOW-US-ON************/
+  /***********COPYRIGHT-STUFF***************/
+}
+
+footer #first-area {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+footer #first-area h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 8.94%;
+  padding-left: 6%;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 8.94%;
+}
+
+footer #first-area input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01rem;
+  color: #6b6b6b;
+  /* width:100%; */
+  /* max-width:117px; */
+}
+
+footer #first-area p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01rem;
+  color: #6b6b6b;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 11.18%;
+}
+
+footer #first-area .option-list,
+footer #first-area ul,
+footer #first-area li,
+footer #first-area li a {
+  display: none;
+}
+
+footer .col-sm-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer .col-sm-3 button {
+  display: flex;
+  /* position:relative; */
+}
+
+footer .col-sm-3 button .collapsible #may-we-help-you,
+footer .col-sm-3 button .collapsible #company {
+  background-color: #f5f5f5;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+footer .col-sm-3 span {
+  padding-right: 6.666%;
+  padding-left: 8.8%;
+}
+
+footer .col-sm-3 svg {
+  margin: auto;
+  margin-right: 0;
+}
+
+footer .col-sm-3 h3 {
+  margin: 0;
+}
+
+footer .content ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer .content li {
+  padding: 0 18px;
+  /* display: none; */
+  overflow: hidden;
+  background-color: #f1f1f1;
+  list-style: none;
+}
+
+footer .content li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer #send-form {
+  text-align: left;
+}
+
+footer input {
+  border: 0;
+  border-bottom: 2px solid #000;
+  /* padding-left:6.4%; */
+}
+
+footer form {
+  padding-left: 6%;
+}
+
+footer form button {
+  margin-top: 8.948%;
+  background-color: #9d9d9d;
+  width: 120px;
+  height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+  margin-bottom: 5.36%;
+}
+
+footer form button .plus {
+  justify-content: right;
+  margin-left: auto;
+}
+
+footer footer #form-area p {
+  padding-bottom: 13.33333%;
+  margin-bottom: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #9d9d9d;
+  text-align: left;
+  margin-top: 0;
+}
+
+footer #follow-icons {
+  margin: 0;
+}
+
+footer #follow-us-on {
+  background-color: #ffffff;
+  text-align: center;
+  /* padding-bottom:10%;
+            padding-top:2%; */
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+}
+
+footer #follow-us-on h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+footer #follow-us-on ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+footer #copyright-stuff {
+  background-color: #000000;
+  padding-left: 0;
+  justify-content: center;
+}
+
+footer #copyright-stuff ul {
+  margin: 0;
+}
+
+footer #copyright-stuff ul li {
+  list-style: none;
+}
+
+footer #copyright-stuff ul a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+footer #copyright-stuff #copyright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+}
+
+footer #copyright-stuff #legal-elements {
+  text-align: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+}
+
+@media (min-width: 767px) {
+  footer {
+    /***********FIRST-AREA-LG************************/
+    /**********FOLLOW-ICONS-LG****************/
+    /*********COPYRIGHT-STUFF-LG**************/
+  }
+  footer .container {
+    margin: 0;
+  }
+  footer #first-area {
+    padding-top: 82px;
+    margin: 0;
+  }
+  footer #form-area {
+    padding-right: 11.25%;
+    padding-left: 11.25%;
+  }
+  footer .col-sm-3 {
+    display: none;
+  }
+  footer #first-area .option-list {
+    display: block;
+    font-family: "Roboto";
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    padding-bottom: 0;
+    text-align: left;
+    padding-bottom: 21px;
+  }
+  footer #first-area ul {
+    display: block;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+  }
+  footer #first-area li {
+    display: block;
+    padding-bottom: 3.49%;
+  }
+  footer #first-area li a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+  }
+  footer #first-area svg {
+    margin-right: 6.25%;
+  }
+  footer #first-area #form-and-send {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 8.95%;
+  }
+  footer #first-area button {
+    margin-top: 0;
+  }
+  footer #follow-icons {
+    margin: 0;
+  }
+  footer #follow-icons #follow-us-on {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 28px;
+  }
+  footer #copyright-stuff ul {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    height: 48px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    /* padding-left:33%;  */
+  }
+  footer #copyright-stuff #legal-elements {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+  }
+}
