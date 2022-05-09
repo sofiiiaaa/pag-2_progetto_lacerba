@@ -1,12 +1,13 @@
 .listato{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    // grid-template-row: ;
-    background-color: #F5F5F5; ;
+    grid-template-columns: auto auto ;
+    // grid-template-row:  ;
+    background-color: #F5F5F5; 
     height:100vh;
 
     .image{
-        display:flex;      
+        display:flex;  
+        border-right:0.1rem solid #F5F5F5;
     }
     .name{
         @include font($lg-size, 14px,16px);
@@ -26,6 +27,7 @@
 
     .prices{
         display:flex;
+        background-color: $secondary-color ;
     }
 
     button{
