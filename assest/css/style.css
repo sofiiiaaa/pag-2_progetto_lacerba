@@ -429,6 +429,8 @@ footer #send-form {
 footer input {
   border: 0;
   border-bottom: 2px solid #000;
+  width: 298px;
+  padding-bottom: 18.05px;
   /* padding-left:6.4%; */
 }
 
@@ -569,11 +571,14 @@ footer #copyright-stuff #legal-elements {
     margin: 0;
   }
   footer #form-area {
-    padding-right: 11.25%;
-    padding-left: 11.25%;
+    margin-right: 11.25%;
+    margin-left: 22.5%;
   }
   footer .col-sm-3 {
     display: none;
+  }
+  footer #first-area input {
+    width: 500px;
   }
   footer #first-area .option-list {
     display: block;
@@ -619,7 +624,7 @@ footer #copyright-stuff #legal-elements {
     padding-bottom: 8.95%;
   }
   footer #first-area button {
-    margin-top: 0;
+    margin-bottom: 0;
   }
   footer #follow-icons {
     margin: 0;
@@ -627,13 +632,17 @@ footer #copyright-stuff #legal-elements {
   footer #follow-icons #follow-us-on {
     display: flex;
     justify-content: center;
-    padding-bottom: 28px;
   }
   footer #follow-icons #follow-us-on h3 {
     padding: 0;
+    font-size: 16px;
+    line-height: 19px;
   }
   footer #follow-icons #follow-us-on ul {
     padding-bottom: 0;
+    gap: 30px;
+    padding-left: 28px;
+    margin-bottom: 48px;
   }
   footer #copyright-stuff ul {
     text-align: center;

@@ -141,6 +141,8 @@ footer {
   input {
     border: 0;
     border-bottom: 2px solid #000;
+    width:298px;
+    padding-bottom:18.05px;
 
     /* padding-left:6.4%; */
   }
@@ -292,8 +294,8 @@ footer {
     }
 
     #form-area {
-     padding-right: 11.25%;
-     padding-left: 11.25%;
+     margin-right: 11.25%;
+     margin-left: 22.5%;
    }
 
    .col-sm-3 {
@@ -301,6 +303,10 @@ footer {
   }
 /***********FIRST-AREA-LG************************/
     #first-area {
+
+        input{
+          width: 500px;
+        }
         .option-list {
                 display: block;
                 font-family: "Roboto";
@@ -351,7 +357,7 @@ footer {
 
         
         button {
-            margin-top: 0;
+            margin-bottom: 0;
         }
     }
 
@@ -363,14 +369,19 @@ footer {
         #follow-us-on {
                 display: flex;
                 justify-content: center;
-                padding-bottom: 28px;
+                // padding-bottom: 28px;
 
             h3{
               padding:0;
+              font-size: 16px;
+              line-height: 19px;
             }
 
             ul{
               padding-bottom:0;
+              gap:30px;
+              padding-left:28px;
+              margin-bottom:48px;
             }
             }
     }
