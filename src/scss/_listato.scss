@@ -13,7 +13,14 @@
     }
     img{
         width:100%;
+        // position:relative;
     }
+    // button .new{
+    //     position:absolute;
+    //     top:px;
+    //     left:8px;
+    //     // transform: translateY();
+    // }
     .name{
         @include font($lg-size, 14px,16px);
     }
