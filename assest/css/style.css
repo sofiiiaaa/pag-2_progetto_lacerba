@@ -563,11 +563,9 @@ footer #copyright-stuff #legal-elements {
     /**********FOLLOW-ICONS-LG****************/
     /*********COPYRIGHT-STUFF-LG**************/
   }
-  footer .container {
-    margin: 0;
-  }
   footer #first-area {
-    padding-top: 82px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
   }
   footer #form-area {
@@ -631,6 +629,12 @@ footer #copyright-stuff #legal-elements {
     justify-content: center;
     padding-bottom: 28px;
   }
+  footer #follow-icons #follow-us-on h3 {
+    padding: 0;
+  }
+  footer #follow-icons #follow-us-on ul {
+    padding-bottom: 0;
+  }
   footer #copyright-stuff ul {
     text-align: center;
     display: flex;
@@ -640,11 +644,14 @@ footer #copyright-stuff #legal-elements {
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    /* padding-left:33%;  */
+  }
+  footer #copyright-stuff #copyright {
+    padding: 0;
   }
   footer #copyright-stuff #legal-elements {
     display: flex;
     justify-content: space-around;
     gap: 8px;
+    padding: 0;
   }
 }
