@@ -189,13 +189,15 @@ h3 {
   display: grid;
   grid-template-columns: 50% 50%;
   background-color: #F5F5F5;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
   overflow: hidden;
 }
 
 .listato .image {
   display: flex;
+}
+
+.listato img {
+  width: 100%;
 }
 
 .listato .name {
@@ -561,9 +563,51 @@ footer #copyright-stuff #legal-elements {
 
 @media (min-width: 767px) {
   footer {
-    /***********FIRST-AREA-LG************************/
     /**********FOLLOW-ICONS-LG****************/
     /*********COPYRIGHT-STUFF-LG**************/
+  }
+  footer #follow-icons {
+    margin: 0;
+  }
+  footer #follow-icons #follow-us-on {
+    display: flex;
+    justify-content: center;
+  }
+  footer #follow-icons #follow-us-on h3 {
+    padding: 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  footer #follow-icons #follow-us-on ul {
+    padding-bottom: 0;
+    gap: 30px;
+    padding-left: 28px;
+    margin-bottom: 48px;
+  }
+  footer #copyright-stuff ul {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    height: 48px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  footer #copyright-stuff #copyright {
+    padding: 0;
+  }
+  footer #copyright-stuff #legal-elements {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1023px) {
+  footer {
+    /***********FIRST-AREA-LG************************/
   }
   footer #first-area {
     display: grid;
@@ -625,42 +669,5 @@ footer #copyright-stuff #legal-elements {
   }
   footer #first-area button {
     margin-bottom: 0;
-  }
-  footer #follow-icons {
-    margin: 0;
-  }
-  footer #follow-icons #follow-us-on {
-    display: flex;
-    justify-content: center;
-  }
-  footer #follow-icons #follow-us-on h3 {
-    padding: 0;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  footer #follow-icons #follow-us-on ul {
-    padding-bottom: 0;
-    gap: 30px;
-    padding-left: 28px;
-    margin-bottom: 48px;
-  }
-  footer #copyright-stuff ul {
-    text-align: center;
-    display: flex;
-    gap: 8px;
-    list-style: none;
-    height: 48px;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  footer #copyright-stuff #copyright {
-    padding: 0;
-  }
-  footer #copyright-stuff #legal-elements {
-    display: flex;
-    justify-content: space-around;
-    gap: 8px;
-    padding: 0;
   }
 }
