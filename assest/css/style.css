@@ -194,10 +194,30 @@ h3 {
 
 .listato .image {
   display: flex;
+  border-right: 0.1rem solid #F5F5F5;
+  position: relative;
 }
 
 .listato img {
   width: 100%;
+}
+
+.listato button.new {
+  position: absolute;
+  transform: translateY(9px);
+  transform: translateX(8px);
+}
+
+.listato button.favorite {
+  position: absolute;
+  transform: translateY(9px);
+  transform: translateX(130px);
+}
+
+.listato button.for-six {
+  position: absolute;
+  transform: translateY(130px);
+  transform: translateX(8px);
 }
 
 .listato .name {
